@@ -1,0 +1,151 @@
+div {
+  display: block;
+  margin-top: 0;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #40514e;
+}
+h1 {
+  font-size: 90px;
+  margin-top: 50px 0 auto 0;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2.5em;
+  font-weight: normal;
+  font-family: "Volkhov", serif;
+  margin-top: 2.5rem;
+}
+h3 {
+  color: #11999e;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+.top-box {
+  background-color: powderblue;
+  position: relative;
+  padding-top: 120px;
+  height: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50%;
+  margin: 150px auto 120px auto;
+  text-align: left;
+  line-height: 2;
+}
+.coding {
+  width: 20%;
+  float: left;
+  margin-right: 2em;
+}
+.gaming {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+hr {
+  border-top: 6px dotted gray;
+  width: 100px;
+}
+.profile {
+  margin-top: 5rem;
+
+  width: 60%;
+  margin: 90px auto 90px auto;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: "Volkhov", serif;
+}
+.btn {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #65bfbf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.bottom-container {
+  margin-top: 30px;
+  height: 100px;
+  background-color: #65bfbf;
+  width: auto;
+  padding: 50px 0 30px;
+}
+.footer-link {
+  margin: auto 20px auto 20px;
+  color: #11999e;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  padding: 30px;
+  color: aliceblue;
+}
+
+.footer-link:hover {
+  color: aliceblue;
+}
+.skill {
+  margin-top: 90px;
+}
+.middle-container {
+  width: auto;
+  margin: 50px auto 50px;
+}
+.bio {
+  width: 60%;
+  margin: 50px auto 50px;
+}
+@media only screen and (min-width: 375px) {
+  .top-box {
+    width: auto;
+    margin: 0;
+    height: auto;
+  }
+  .h2 {
+    color: blue;
+  }
+}
