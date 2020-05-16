@@ -10,6 +10,10 @@ body {
   font-size: 20px;
   color: #40514e;
 }
+.mountain {
+  max-width: auto;
+  height: auto;
+}
 h1 {
   font-size: 90px;
   margin-top: 50px 0 auto 0;
@@ -33,6 +37,7 @@ h3 {
   position: relative;
   padding-top: 120px;
   height: auto;
+  width: 100%;
 }
 
 .top-cloud {
@@ -70,7 +75,7 @@ hr {
 .profile {
   margin-top: 5rem;
 
-  width: 60%;
+  width: 70%;
   margin: 90px auto 90px auto;
   line-height: 2;
   font-weight: bold;
@@ -139,13 +144,86 @@ hr {
   width: 60%;
   margin: 50px auto 50px;
 }
-@media only screen and (min-width: 375px) {
-  .top-box {
-    width: auto;
-    margin: 0;
+@media only screen and (max-width: 600px) {
+  .mountain {
+    max-width: 100%;
     height: auto;
   }
-  .h2 {
-    color: blue;
+  body {
+    max-width: 100%;
+    height: auto;
+  }
+  .top-box {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+  div {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bottom-cloud {
+    display: none;
+  }
+  .intro {
+    font-size: 4vmax;
+  }
+  h1 {
+    margin: 0px;
+    padding: 0;
+  }
+  h2 {
+    margin-top: 20px;
+    font-size: 5vmax;
+  }
+  h3 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .bio {
+    width: 70%;
+    margin: 10px auto 20px;
+    text-align: left;
+  }
+  .contact-me {
+    width: 60%;
+    height: auto;
+    margin: 50px auto 20px;
+  }
+  .contact-me h2 {
+    margin: 50px auto 40px;
+    font-size: 40px;
+  }
+  .coding {
+    float: none;
+    width: 100%;
+  }
+  .gaming {
+    float: none;
+    width: 150%;
+    position: relative;
+    right: 80px;
+  }
+  #hobby {
+    margin-top: 3.5em;
+    font-size: 40px;
+  }
+  #GIT {
+    line-height: 2;
+    margin-top: 50px;
+  }
+  .footer-link {
+    margin: 0px 20px 30px;
+    line-height: 2;
+  }
+  .copyright {
+    margin-top: 20px;
+    padding: 0;
+  }
+  .bottom-container {
+    height: auto;
+    width: 100%;
   }
 }
